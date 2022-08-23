@@ -4,7 +4,7 @@ module "network" {
   resource_group_name = azurerm_resource_group.myresourcegroup.name
   
   tags = {
-    Billable = "boss"
-    Department = "CIO"
+    Billable = "Boss"
+    Department = "HR"
   }
 }
